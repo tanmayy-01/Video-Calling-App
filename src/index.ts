@@ -3,7 +3,7 @@ import serverConfig from './config/serverConfig';
 import http from 'http';
 import { Server } from 'socket.io';
 import cors from 'cors';
-import roomHandler from './handlers/RoomHandler';
+import roomHandler from './handlers/roomHandler';
 
 const app = express();
 app.use(cors());
